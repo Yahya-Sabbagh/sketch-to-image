@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*. py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+. env
+
+# IDE
+. idea/
+.vscode/
+*.swp
+*.swo
+
+# Model cache
+. cache/
+models/cache/
+*. bin
+*. safetensors
+
+# Outputs
+examples/outputs/*
+! examples/outputs/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary
+tmp/
+temp/
+*. tmp
